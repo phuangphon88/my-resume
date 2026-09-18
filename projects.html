@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ผลงาน | พวงพร สาระศาลิน</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="site-header">
+        <a href="index.html" class="logo">พวงพร สาระศาลิน</a>
+        <button class="menu-toggle" id="menu-toggle" aria-label="เปิดปิดเมนู" aria-expanded="false">☰</button>
+        <nav class="site-nav">
+            <ul>
+                <li><a href="index.html">หน้าแรก</a></li>
+                <li><a href="experience.html">ประสบการณ์</a></li>
+                <li><a href="projects.html" class="active">ผลงาน</a></li>
+                <li><a href="contact.html">ติดต่อ</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="page-head">
+            <h1>ผลงาน</h1>
+            <p class="tagline">โครงงานที่เคยมีส่วนร่วมในการพัฒนา</p>
+        </section>
+        <section>
+            <h2>โครงงานที่ผ่านมา</h2>
+            <div class="project-grid">
+                <article class="project-card">
+                    <img src="images/project1.jpg" alt="ภาพวงจรที่เสร็จสมบูรณ์">
+                    <div class="project-body">
+                        <h3>NEUROGLOW</h3>
+                        <p> เกมทดสอบความจำสุดคลาสสิกที่ถูกนำมาสร้างใหม่ด้วยบอร์ด Arduino!
+                            ผู้เล่นต้องจำและกดปุ่มตามลำดับไฟ LED ที่กระพริบให้ถูกต้อง ยิ่งเล่น ลำดับก็ยิ่งยาวขึ้น
+                            ท้าทายความจำและความไวสุดๆ ใครพลาด... “เกมโอเวอร์!” </p>
+                        <ul class="tech-list">
+                            <li>Arduino</li>
+                            <li>proteus</li>
+                            <li>C++</li>
+                        </ul>
+                        <div class="project-links"> <a
+                                href="https://drive.google.com/drive/folders/1J6BAr1uOyy-s3e5BlzrnGvxbc1kq101o?usp=drive_link"
+                                target="_blank" rel="noopener"></a></div>
+                    </div>
+                </article>
+                <article class="project-card">
+                    <img src="images/project2.jpg" alt="ภาพวงจรที่เสร็จสมบูรณ์">
+                    <div class="project-body">
+                        <h3>วงจรกรองช่วงความถี่ผ่าน (Band-Pass Filter: BPF)</h3>
+                        <p> เพื่อให้ได้ศึกษาความรู้ในเรื่อง วงจรกรองความถี่แถบผ่าน (Bandpass Filter: BPF)
+                            ที่กรองความถี่เฉพาะช่วงที่ยอมให้สัญญาณสามารถผ่านได้ รวมถึงการศึกษาอุปกรณ์ R1,R2
+                            ที่ใช้เพื่อกำหนดการตอบสนองความถี่และแบนด์วิดท์ กำหนดอัตราลดทอนของสัญญาณ ทำงานร่วมกับ C1,C2
+                            ในการกำหนดความถี่กลาง ส่วน Rf จะควบคุมอัตราการขยายของวงจร ทำงานร่วมกับOp-Amp741
+                            เพื่อเพิ่มแรงดันขาออก และ C1,C2 ใช้เป็นตัวกรองสัญญาณควบคุมช่วงความถี่ที่ต้องการให้ผ่าน
+                            สุดท้ายตัว Op-Amp741 ใช้ขยายสัญญาณ และช่วยรักษาเสถียรภาพของวงจร </p>
+                        <ul class="tech-list">
+                            <li>EasyEDA</li>
+                        </ul>
+                        <div class="project-links"> <a
+                                href="https://drive.google.com/drive/folders/1J6BAr1uOyy-s3e5BlzrnGvxbc1kq101o?usp=drive_link"
+                                target="_blank" rel="noopener"></a></div>
+                    </div>
+                </article>
+                <article class="project-card">
+                    <img src="images/project3.jpg" alt="ภาพวงจรที่เสร็จสมบูรณ์">
+                    <div class="project-body">
+                        <h3>วงจรเรียงกระแสแบบสะพานเต็มคลื่น (Full-wave Bridge Rectifier)</h3>
+                        <p> เพื่อให้ได้ศึกษาความรู้ในเรื่อง วงจรเรียงกระแสเต็มคลื่นแบบบริดจ์
+                            ที่แปลงสัญญาณไฟฟ้ากระแสสลับเป็นสัญญาณไฟฟ้ากระแสตรง รวมถึงการศึกษาอุปกรณ์ที่ทำหน้าที่แปลง คือ
+                            ไดโอด วงจรเรียงกระแสจะใช้ไดโอดเป็นตัวเรียงกระแสไฟสลับที่มีคลื่นด้านบวกและลบให้เป็นไฟตรง
+                            ที่มีเฉพาะคลื่นด้านบวกหรือลบเพียงด้านเดียว หากแบ่งตามลักษณะของแรงดันอินพุต
+                            วงจรเรียงกระแสจะมีทั้งแบบ 3 เฟส และ 1 เฟส แต่ถ้าแบ่งตามลักษณะของแรงดันเอาต์พุต จะแบ่งได้ 2
+                            แบบ คือ 1. วงจรเรียงกระแสครึ่งคลื่น (Half – Ware Rectification) และ 2.
+                            วงจรเรียงกระแสเต็มคลื่น (Full – Ware Rectification)
+                            ซึ่งวงจรที่เรานำมาศึกษาคือวงจรเรียงกระแสเต็มคลื่นแบบบริดจ์ เป็นวงจรที่มีการใช้ไดโอด 4 ตัว
+                        </p>
+                        <ul class="tech-list">
+                            <li>EasyEDA</li>
+                        </ul>
+                        <div class="project-links"> <a
+                                href="https://drive.google.com/drive/folders/1J6BAr1uOyy-s3e5BlzrnGvxbc1kq101o?usp=drive_link"
+                                target="_blank" rel="noopener"></a></div>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+    <footer class="site-footer">
+        <p>&copy; 2569 พวงพร สาระศาลิน</p>
+        <p>สร้างด้วย HTML และ CSS</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
