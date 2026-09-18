@@ -41,13 +41,15 @@
         </section>
         <section>
             <h2>ส่งข้อความถึงฉัน</h2>
-            <div class="field"> <label for="name">ชื่อของคุณ</label> <input type="text" id="name" name="name" required>
-            </div>
-            <div class="field"> <label for="email">อีเมลของคุณ</label>
-                <input type="email" id="email" name="email" required>
-            </div>
-            <div class="field"> <label for="message">ข้อความ</label> <textarea id="message" name="message" rows="5"
-                    required></textarea> </div> <button type="submit" class="btn">ส่งข้อความ</button>
+            <form class="contact-form" action="https://formspree.io/f/mnpnngvd" method="POST">
+                <div class="field"> <label for="name">ชื่อของคุณ</label> <input type="text" id="name" name="name"
+                        required> </div>
+                <div class="field"> <label for="email">อีเมลของคุณ</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="field"> <label for="message">ข้อความ</label> <textarea id="message" name="message" rows="5"
+                        required></textarea> </div> <button type="submit" class="btn">ส่งข้อความ</button>
+            </form>
         </section>
     </main>
     <footer class="site-footer">
